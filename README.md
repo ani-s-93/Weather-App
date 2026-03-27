@@ -1,16 +1,86 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive weather application built using React that provides real-time weather updates with a clean, modern UI.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the ESLint configuration
+<img width="943" height="906" alt="image" src="https://github.com/user-attachments/assets/b62978ca-03b7-4f87-b4ae-881dab9d75de" />
+<img width="952" height="904" alt="image" src="https://github.com/user-attachments/assets/8901c310-82f5-41d6-86ff-c77fc4af636a" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## ✨ Features
+
+* 🔍 Search weather by city name
+* 🌡️ Real-time temperature updates
+* 💧 Humidity and wind speed data
+* 🎨 Modern glassmorphism UI
+* ⚡ Fast and responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* CSS (Custom styling)
+* Weather API
+
+---
+
+## 📂 Project Structure
+
+```
+weather-app/
+│── src/
+│   ├── components/
+│   ├── assets/
+│   └── Weather.jsx
+│── public/
+│── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+npm install
+npm run dev
+```
+---
+
+## 📌 Future Improvements
+
+* 📍 Location-based weather
+* 🌙 Dark/Light mode toggle
+* 📊 5-day forecast
+* 📱 Mobile optimization enhancements
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and create a pull request.
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a star ⭐ on GitHub!
+
+---
+
+## 📬 Contact
+
+Created by Anika Sharma
+Feel free to connect!
