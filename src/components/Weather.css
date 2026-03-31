@@ -125,7 +125,127 @@
 .weather {
     animation: float 4s ease-in-out infinite;
 }
+.ai-box {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  background: linear-gradient(135deg, #1e1e3f, #2a1a4a);
+  color: #fff;
+  box-shadow: 0 0 20px rgba(128, 0, 255, 0.3);
+  text-align: left;
+}
 
+.ai-box h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #c084fc;
+  letter-spacing: 1px;
+}
+
+.ai-box p {
+  font-size: 13px;
+  line-height: 2;
+  white-space: pre-line; /* 👈 this makes line breaks work */
+  color: #e2e8f0;
+}
+.ai-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ai-header {
+  color: #c084fc;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.ai-line {
+  color: #e2e8f0;
+  font-size: 13px;
+  padding-left: 8px;
+  border-left: 2px solid rgba(192, 132, 252, 0.3);
+}
+.ask-box {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  background: linear-gradient(135deg, #1a2a1a, #1a1a2e);
+  box-shadow: 0 0 20px rgba(0, 255, 128, 0.15);
+}
+
+.ask-box h3 {
+  color: #6ee7b7;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.ask-input-row {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.ask-input {
+  flex: 1;
+  height: 44px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding-left: 16px;
+  font-size: 14px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.ask-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ask-btn {
+  height: 44px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6ee7b7, #3b82f6);
+  color: #1a1a2e;
+  transition: 0.3s;
+}
+
+.ask-btn:hover {
+  transform: scale(1.05);
+}
+
+.ask-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.ask-answer {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px;
+  border-radius: 12px;
+  color: #e2e8f0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.ask-answer span {
+  font-size: 20px;
+}
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-8px); }
