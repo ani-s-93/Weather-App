@@ -8,8 +8,9 @@ A full-stack weather application with real-time weather data and an AI-powered a
 
 ## 📸 Preview
 
-<img width="943" height="906" alt="image" src="https://github.com/user-attachments/assets/b62978ca-03b7-4f87-b4ae-881dab9d75de" />
-<img width="952" height="904" alt="image" src="https://github.com/user-attachments/assets/8901c310-82f5-41d6-86ff-c77fc4af636a" />
+<img width="938" height="669" alt="image" src="https://github.com/user-attachments/assets/92cc0d91-7d28-4ec6-bfae-06c5b9c480bb" />
+
+<img width="935" height="879" alt="image" src="https://github.com/user-attachments/assets/ab6db829-fdbf-41d9-b483-bc84696376cc" />
 
 ---
 
