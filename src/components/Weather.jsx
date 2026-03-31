@@ -49,7 +49,7 @@ const askQuestion = async () => {
   setAiAnswer("");
 
   try {
-    const res = await fetch("http://localhost:5000/ask", {
+     const res = await fetch("https://weather-app-backend-k1nc.onrender.com/ask", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -91,7 +91,7 @@ const askQuestion = async () => {
         location:data.name,
         icon:icon,
       })
-      const aiRes = await fetch("http://localhost:5000/ai", {
+      const aiRes = await fetch("https://weather-app-backend-k1nc.onrender.com/ai", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
